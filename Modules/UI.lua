@@ -152,7 +152,7 @@ function UI.Init()
     
     Gearless_Tab:AddBind({
         Name = "Slide Speed",
-        Default = Enum.KeyCode.C,
+        Default = Enum.KeyCode.KeypadSeven,
         Hold = false,
         Callback = function()
             if getgenv().Toggles.Slide_Speed == true then
@@ -165,7 +165,7 @@ function UI.Init()
 
     Gearless_Tab:AddBind({
         Name = "Walk Speed",
-        Default = Enum.KeyCode.V,
+        Default = Enum.KeyCode.KeypadEight,
         Hold = false,
         Callback = function()
             if getgenv().Toggles.Walk_Speed == true then

@@ -2,7 +2,7 @@ local UI = {}
 
 -- Variables
 local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/poppo112/Hub/main/source')))()
-local Window = Library:MakeWindow({Name = "pepe9", HidePremium = true})
+local Window = Library:MakeWindow({Name = "pepe99", HidePremium = false})
 
 local Combo_Tab = Window:MakeTab({
     Name = "Combo",
